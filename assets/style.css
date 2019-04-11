@@ -59,7 +59,7 @@ body {
 /* hero */
 
 .hero {
-  background-image: url('./images/bg.jpg');
+  background-image: url('./images/bg_small.jpg');
   background-blend-mode: overlay;
   background-color: #ff888888;
 }
@@ -112,7 +112,7 @@ body {
 /* Location */
 
 .location {
-  background-image: url('./images/map.jpg');
+  background-image: url('./images/map_small.jpg');
   background-blend-mode: overlay;
   background-position: 55% 10%;
   background-color: #777777;
