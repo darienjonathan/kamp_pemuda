@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Prociono|Lato|Merriweather|Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Prociono|Lato|Merriweather|Cuprum');
 
 body {
   margin: 0 !important;
   min-width: 1024px;
   text-align: center;
   font-size: 24px;
-  font-family: 'merriweather';
+  font-family: 'open sans';
 }
 
 /* general */
@@ -42,7 +42,7 @@ body {
 }
 
 .title, .subtitle {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cuprum', sans-serif;
 }
 
 .material-icons.bullet {
