@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Prociono|Lato|Merriweather|Cuprum');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Lato|Merriweather|Roboto+Condensed');
 
 body {
   margin: 0 !important;
   min-width: 1024px;
   text-align: center;
   font-size: 24px;
-  font-family: 'open sans';
+  font-family: 'Raleway';
+}
+
+a {
+  color: red;
 }
 
 /* general */
@@ -15,11 +19,12 @@ body {
   width: 100%;
   height: 800px;
   overflow: hidden;
-  background-color: #fcf0e5;
+  background-color: grey;
 }
 
-.block.grey {
-  background-color: grey;
+.block.peach {
+  background-color: #fcf0e5;
+  color: black;
   -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
   -moz-box-shadow:    0px 0px 15px 5px rgba(0,0,0,0.75);
   box-shadow:         0px 0px 15px 5px rgba(0,0,0,0.75);
@@ -42,7 +47,7 @@ body {
 }
 
 .title, .subtitle {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .material-icons.bullet {
@@ -59,15 +64,20 @@ body {
 /* hero */
 
 .hero {
-  background-image: url('./images/bg_small.jpg');
-  background-blend-mode: overlay;
-  background-color: #ff888888;
+  background-image: url('./images/bg.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 .hero_container {
   display: flex;
   flex-direction: column;
-  background-color: #ffffff80;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.hero_title {
+  font-size: 2.5em;
 }
 
 .hero_hr {
@@ -112,7 +122,7 @@ body {
 /* Location */
 
 .location {
-  background-image: url('./images/map_small.jpg');
+  background-image: url('./images/map.jpg');
   background-blend-mode: overlay;
   background-position: 55% 10%;
   background-color: #777777;
@@ -120,16 +130,13 @@ body {
 
 .location_container {
   padding: 50px 100px;
-  background-color: #ffffff80;
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
 }
 
 
 .location_name_text {
   font-size: 1.25em;
-}
-
-.location_link {
-  color: blue;
 }
 
 /* Price */
@@ -159,7 +166,6 @@ body {
 }
 
 .price_icons {
-  color: white;
   margin-right: 10px;
   align-self: center;
 }
@@ -198,17 +204,16 @@ body {
 
 .belongings {
   background-image: url('./images/bag.jpg');
-  background-blend-mode: overlay;
+  background-blend-mode: multiply;
 }
 
 .belongings_container {
-  background-color: #ffffffA0;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 .belongings_list {
   text-align: left;
   line-height: 2;
-  background-color: #ffffffA0;
   padding: 30px;
 }
 
