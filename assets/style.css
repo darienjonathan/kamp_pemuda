@@ -139,6 +139,12 @@ a {
   font-size: 1.25em;
 }
 
+.location_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* Price */
 
 .price_container {
@@ -277,7 +283,11 @@ a {
   /* location */
 
   .location_name {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+  }
+
+  .location_links {
+    height: 60px;
   }
 
   /* meeting point */
@@ -321,5 +331,9 @@ a {
 
   .location_name_text:nth-child(2) {
     margin-top: 150px;
+  }
+
+  .location_links {
+    height: 75px;
   }
 }
